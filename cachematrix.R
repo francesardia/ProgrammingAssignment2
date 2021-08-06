@@ -3,7 +3,7 @@
 
 ## The two functions are makeCacheMatrix and cacheSolve
 ## The function makeCacheMatrix compose of set, get, setInverse, getInverse
-## This used to compute the inverse and a square matrix
+## It is used to compute and cache the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL 
