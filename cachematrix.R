@@ -3,7 +3,7 @@
 
 ## The two functions are makeCacheMatrix and cacheSolve
 ## The function makeCacheMatrix compose of set, get, setInverse, getInverse
-## This used to calculate inverse and matrix
+## This used to compute the inverse and a square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL 
@@ -20,12 +20,12 @@ list(set = set, get = get,
 }
 
 ## Write a short comment describing this function
-## This is where used to solve cache data 
+## This is where used to solve the inverse matrix
 
 cacheSolve <- function(x, ...) { #get cached data
         ## Return a matrix that is the inverse of 'x'
   inv <- x$getInverse ()
-  if(!is.null(inverse)) { #check if the inverse is a null value
+  if(!is.null(inv)) { #check if the inverse is a null value
     message ("getting cached data") 
     return(inv) #return the inverse value
   }
