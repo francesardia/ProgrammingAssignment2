@@ -1,6 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## The two functions are makeCacheMatrix and cacheSolve
 ## The function makeCacheMatrix compose of set, get, setInverse, getInverse
 ## This used to calculate inverse and matrix
 
